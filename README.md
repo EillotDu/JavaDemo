@@ -1,1 +1,3 @@
-SpringBootDemo:记录一些springboot的基础操作和三方件的操作能力
+# JavaDemo
+## 1. SpringBootDemo
+不知道写什么，就这样吧
