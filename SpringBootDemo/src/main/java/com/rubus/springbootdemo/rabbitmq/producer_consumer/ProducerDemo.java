@@ -1,4 +1,4 @@
-package com.rubus.springbootdemo.rabbitmq;
+package com.rubus.springbootdemo.rabbitmq.producer_consumer;
 
 import com.rubus.springbootdemo.Bean.User;
 import jakarta.annotation.Resource;
@@ -20,7 +20,7 @@ public class ProducerDemo {
     }
 
     public void produceUser() {
-        User user = new User("rubus", "123");
+        User user = new User("Rubus", "123");
         System.out.println("producer user: " + user);
         rabbitTemplate.convertAndSend("rabbitmq_queue_object", user);
     }

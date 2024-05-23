@@ -1,4 +1,4 @@
-package com.rubus.springbootdemo.rabbitmq;
+package com.rubus.springbootdemo.rabbitmq.producer_consumer;
 
 import com.rubus.springbootdemo.Bean.User;
 import org.springframework.amqp.rabbit.annotation.Queue;

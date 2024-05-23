@@ -1,6 +1,6 @@
 package com.rubus.springbootdemo;
 
-import com.rubus.springbootdemo.rabbitmq.ProducerDemo;
+import com.rubus.springbootdemo.rabbitmq.producer_consumer.ProducerDemo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
